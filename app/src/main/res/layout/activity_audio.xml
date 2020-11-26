@@ -27,5 +27,19 @@
         android:layout_below="@+id/playButton"
         tools:ignore="UnknownId"
         android:id="@+id/seekbar"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/seekbar"
+        android:id="@+id/scrubber"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Next Activity"
+      android:layout_below="@+id/scrubber"
+        android:onClick="nextActivity"
+        />
 
 </RelativeLayout>
